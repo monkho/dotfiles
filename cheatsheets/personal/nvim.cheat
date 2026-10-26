@@ -1,0 +1,88 @@
+## Files & Buffers
+
+    <leader>e | Toggle file tree
+    <leader>o | Focus file tree
+    <leader>ff | Find files
+    <leader>fg | Live grep
+    <leader>fb | Open buffers
+    <leader>fr | Recent files
+    <leader>fc | Find word under cursor
+    <leader>fd | Diagnostics list
+    <leader>fh | Help tags
+    <leader>w | Save file
+    <leader>q | Quit
+    <leader>Q | Force quit all
+    <leader>bd | Delete buffer
+    Shift+H | Previous buffer
+    Shift+L | Next buffer
+
+## LSP
+
+    gd | Go to definition
+    gr | References
+    gi | Implementations
+    gt | Type definition
+    K | Hover docs
+    <leader>ca | Code action
+    <leader>rn | Rename symbol
+    <leader>lf | Format file
+    <leader>ld | Show diagnostic float
+    ]d | Next diagnostic
+    [d | Prev diagnostic
+
+## Git
+
+    <leader>gp | Preview hunk
+    <leader>gs | Stage hunk
+    <leader>gr | Reset hunk
+    <leader>gb | Blame line
+    ]g | Next hunk
+    [g | Prev hunk
+
+## Navigation
+
+    Ctrl+H | Move to left split
+    Ctrl+J | Move to lower split
+    Ctrl+K | Move to upper split
+    Ctrl+L | Move to right split
+    <leader>sv | Vertical split
+    <leader>sh | Horizontal split
+    <leader>sx | Close split
+    Ctrl+D | Scroll down (centered)
+    Ctrl+U | Scroll up (centered)
+    s | Flash jump
+    S | Flash treesitter
+
+## Editing
+
+    gcc | Toggle line comment
+    gc | Toggle block comment (visual)
+    J | Move line down (visual)
+    K | Move line up (visual)
+    < | Dedent (stay visual)
+    > | Indent (stay visual)
+    <leader>p | Paste without overwriting register
+    <leader>y | Yank to system clipboard
+    <leader>d | Delete without yanking
+
+## Completion
+
+    Ctrl+Space | Trigger completion
+    Ctrl+J | Next item
+    Ctrl+K | Prev item
+    Enter | Confirm item
+    Ctrl+E | Abort menu
+    Tab | Expand snippet
+
+## Themes
+
+    <leader>tt | Theme switcher (Themery)
+    <leader>ft | Colorscheme picker (Telescope)
+
+## Misc
+
+    <leader>? | This cheatsheet
+    :Lazy | Plugin manager
+    :Mason | LSP installer
+    :checkhealth | Diagnose setup
+
